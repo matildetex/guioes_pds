@@ -1,0 +1,26 @@
+TEMPO     	5      	1,2            	Right
+GRANDE    	6      	1,7            	Right
+ESCRITOR  	8      	2,3            	Right
+PRINCESA  	8      	13,3           	Right
+FRANGO    	6      	7,4            	Down
+MALDADE   	7      	14,12          	UpLeft
+POLVO     	5      	3,8            	DownRight
+CEREAL    	6      	2,14           	DownLeft
+
+
+*TEMPOGRANDE**
+**ESCRITOR***C
+*******P****E*
+********O**R**
+*********LE***
+*********AV***
+***F****L**O**
+***R*E********
+***A**D*******
+***N***A******
+***G****D*****
+***O*****L****
+**PRINCESAA***
+***********M**
+
+Todas as palavras encontradas apenas uma vez na sopa de letras.

@@ -1,0 +1,21 @@
+javac -g -d bin WSSolver.java WSGenerator.java Functions.java Direction.java
+java -cp bin WSSolver sdl_03.txt
+ambiente     8       10,10    LEFT   
+python       6        6,12    UP_LEFT
+trancoso     8        4,8     LEFT   
+portugal     8        6,1     RIGHT  
+real         4        7,8     UP_RIGHT
+porto        5       12,7     LEFT   
+ecologia     8        8,1     RIGHT  
+. . . . . . N . . . . . 
+. . . . . . . O . . . . 
+. . . . . . . . H . . . 
+O S O C N A R T . T L . 
+. . . . . . . . . A Y . 
+P O R T U G A L E . . P 
+. . . . . . . R . . . . 
+E C O L O G I A . . . . 
+. . . . . . . . . . . . 
+. . E T N E I B M A . . 
+. . . . . . . . . . . . 
+. . O T R O P . . . . . 

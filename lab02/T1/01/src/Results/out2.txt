@@ -1,0 +1,21 @@
+javac -g -d bin WSSolver.java WSGenerator.java Functions.java Direction.java
+java -cp bin WSSolver sdl_02.txt
+coruja       6        6,6     UP     
+java         4       10,1     RIGHT  
+aveiro       6        4,9     DOWN_LEFT
+maria        5        6,9     DOWN   
+benfica      7        5,12    DOWN   
+sporting     8        8,8     LEFT   
+martim       6        1,7     LEFT   
+. M I T R A M . . . . . 
+. . . . . J . . . . . . 
+. . . . . U . . . . . . 
+. . . . . R . . A . . . 
+. . . . . O . V . . . B 
+. . . . . C E . M . . E 
+. . . . . I . . A . . N 
+G N I T R O P S R . . F 
+. . . O . . . . I . . I 
+J A V A . . . . A . . C 
+. . . . . . . . . . . A 
+. . . . . . . . . . . . 

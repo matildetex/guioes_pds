@@ -1,0 +1,1 @@
+**a)** O padrão que pode ser utilizado para cumprir estes requsiitos é o padrão Strategy. Este padrão permite **encapsular cada um dos algoritmos** e tornar a troca destes intercambiável, **facilitanto o processo de troca** entre algoritmos.

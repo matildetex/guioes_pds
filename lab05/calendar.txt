@@ -1,0 +1,18 @@
+A classe abstrata Calendar é uma classe que permite a criação de vários tipos de calendários.
+Esta começa por implementar Serializable, Cloneable, Comparable<Calendar>, que fornece funcionalidades para a serialização, clonagem e comparação com outros objetos do tipo Calendar.
+
+Calendar pode representar o tempo em duas formas: como milissegundos desde 1 de janeiro de 1970 e como campos locais. 
+Os métodos da classe facilitam a conversão entre essas representações, utilizando TimeZone e algoritmos específicos do Calendar.
+Esta interpretação começa por definir variáveis públicas estáticas finais, e campos protegidos, tal como variáveis privadas. Os atributos estáticos estão associados à classe e os atributos
+não estáticos, estão associados ao objeto.
+
+Após isso, vários construtores são inicializados.O primeiro está vazio e serve para criar um novo objeto Builder. 
+Em seguida, existem diversos métodos getInstance(), cada um com diferentes argumentos de entrada, responsáveis por criar um calendário e retornar uma nova instância da classe Calendar.
+Todos estes métodos getInstance() invocam a função createCalendar().
+
+O método createCalendar realiza uma verificação do tipo de calendário com base nos parâmetros de entrada, criando uma nova instância de um tipo de calendário específico, como calendário budista, gregoriano ou japonês (subclasses de Calendar), retornando a instância criada. 
+Assim, a invocação do método getInstance(), que por sua vez chama este método, exemplifica um Factory Method.
+Além disto, podemos também verificar que é um Factory Method através dos construtores ("protected"), impedindo que instâncias de Calendar sejam criadas por fora.
+Por fim, existem vários métodos getters e setters para configurar os atributos do calendário.
+
+Essencialmente, o metodo getInstance vai funcionar como uma Fábrica, produzindo os diferentes tipos de calendário e o facto de os construtores serem protected também previne a instanciação da classe, evidenciando o uso do padrão Factory.

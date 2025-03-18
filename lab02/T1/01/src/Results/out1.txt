@@ -1,0 +1,21 @@
+javac -g -d bin WSSolver.java WSGenerator.java Functions.java Direction.java
+java -cp bin WSSolver sdl_01.txt
+programming  11       1,11    LEFT   
+java         4       10,4     UP     
+words        5       11,3     UP     
+lines        5       11,8     UP_RIGHT
+civil        5        6,7     DOWN   
+test         4        2,10    LEFT   
+stack        5        5,2     DOWN   
+G N I M M A R G O R P . 
+. . . . . . T S E T . . 
+. . . . . . . . . . . . 
+. . . . . . . . . . . . 
+. S . . . . . . . . . . 
+. T . . . . C . . . . . 
+. A S A . . I . . . . S 
+. C D V . . V . . . E . 
+. K R A . . I . . N . . 
+. . O J . . L . I . . . 
+. . W . . . . L . . . . 
+. . . . . . . . . . . . 

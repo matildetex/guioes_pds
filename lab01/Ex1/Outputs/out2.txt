@@ -1,0 +1,21 @@
+ANDORINHA 	9      	1,1            	Down
+OCEANO    	6      	9,4            	Up
+GAIVOTA   	7      	10,6           	Up
+VAMPIRO   	7      	10,8           	Up
+RABUGENTO 	9      	1,9            	Down
+GARGULA   	7      	1,10           	Down
+MAR       	3      	1,5            	UpRight
+
+
+A***M***RG
+N****A**AA
+D*****R*BR
+O**O*A*OUG
+R**N*T*RGU
+I**A*O*IEL
+N**E*V*PNA
+H**C*I*MT*
+A**O*A*AO*
+*****G*V**
+
+Todas as palavras encontradas apenas uma vez na sopa de letras.

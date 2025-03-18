@@ -1,0 +1,23 @@
+Padrão Template Method
+
+Uso: O padrão template method é um padrão comportamental que define o esqueleto
+de um algoritmo numa superclasse mas permite que superclasses deem override em 
+passos específicos do algoritmo sem mudar a sua estrutura. 
+(https://refactoring.guru/design-patterns/template-method)
+
+Para este exercício foram analisadas 3 classes, e neste documento irão ser 
+descritas as ocorrências deste padrão:
+
+1. java.io.InputStream (Classe para ler dados de uma entrada)-(https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/io/InputStream.java)
+    - Método abstract read(): Fornece estrutura básica para ler dados de uma fonte, 
+    enquanto que delega a implementação para subclasses (read(byte[] b, int off, int len)) que fornecem
+    a implementação de leitura.
+
+2. java.io.Writer (Representa escrita de caracteres)-(https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/io/Writer.java)
+    - Método write(char[] cbuf, int off, int len): Define estrutura básica para escrever caracteres de um array, chamando o método abstrato write(int c) para a escrita de um caractere. Assim optimiza-se processo de escrita, pois só se o tamanho da string for menor ou igual ele chama o método write(), evitando chamadas desnecessárias ao mesmo.
+    - Método append(CharSequence csq, int start, int end): Define estrutura básica para anexar sequência de caracteres, chamando o método write(String str) para a escrita, assegurando uma maneira mais prática de adicionar caracteres.
+
+3. java.util.AbstractList (Implementação Parcial Interface List)-(https://github.com/openjdk/jdk/blob/master/src/java.base/share/classes/java/util/AbstractList.java)
+    - Método add(int index, E element), remove(int index): Definem estrutyra básica das operações, 
+    mas o como essas operações vão ser realizadas, são deixados para 
+    subclasses concretas. Um exemplo disto, pode ser em que um, ArrayList adiciona elementos de uma maneira, enquanto que LinkedList de outra maneira.

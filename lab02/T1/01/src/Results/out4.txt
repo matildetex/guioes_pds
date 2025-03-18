@@ -1,0 +1,32 @@
+javac -g -d bin WSSolver.java WSGenerator.java Functions.java Direction.java
+java -cp bin WSSolver sdl_04.txt
+ambiente     8        1,7     RIGHT  
+python       6       14,17    LEFT   
+trancoso     8       15,3     RIGHT  
+portugal     8        3,16    LEFT   
+real         4        7,12    UP_RIGHT
+porto        5        4,9     DOWN   
+ecologia     8       10,14    LEFT   
+medico       6       20,12    RIGHT  
+macedo       6        1,8     DOWN_LEFT
+maca         4        9,6     RIGHT  
+. . . . . . A M B I E N T E . . . . . . 
+. . . . . . A . . . . . . . . . . . . . 
+. . . . . C . . L A G U T R O P . . . . 
+. . . . E . . . P . . . . . L . . . . . 
+. . . D . . . . O . . . . A . . . . . . 
+. . O . . . . . R . . . E . . . . . . . 
+. . . . . . . . T . . R . . . . . . . . 
+. . . . . . . . O . . . . . . . . . . . 
+. . . . . M A C A . . . . . . . . . . . 
+. . . . . . A I G O L O C E . . . . . . 
+. . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . N O H T Y P . . . 
+. . T R A N C O S O . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . M E D I C O . . . 

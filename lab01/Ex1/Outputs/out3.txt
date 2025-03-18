@@ -1,0 +1,18 @@
+CAIXOTE   	7      	2,1            	Right
+CASTELO   	7      	3,9            	Left
+MIRAGEM   	7      	4,9            	Left
+ENOVOADO  	8      	5,1            	Right
+CRUZ      	4      	8,9            	Left
+RIO       	3      	8,3            	Up
+
+
+********
+CAIXOTE*
+*OLETSAC
+*MEGARIM
+ENOVOADO
+**O*****
+**I*****
+**R*ZURC
+
+Todas as palavras encontradas apenas uma vez na sopa de letras.
